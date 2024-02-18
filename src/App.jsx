@@ -11,12 +11,14 @@ import {
   Works,
   StarsCanvas,
   Education,
-  Skills
+  Skills,
 } from "./components";
+import MouseBounce from "./utils/MouseBounce";
 
 function App() {
   return (
     <BrowserRouter>
+    <MouseBounce />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           {/* background image */}
@@ -41,3 +43,6 @@ function App() {
 }
 
 export default App;
+
+
+// https://codepen.io/gusevdigital/pen/MWxyXRa - for mouse effect
