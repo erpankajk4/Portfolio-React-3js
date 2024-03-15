@@ -68,7 +68,7 @@ const Navbar = () => {
           <li
             className="hover:text-white text-[18px] font-medium cursor-pointer px-2 py-1    rounded-md  border-pink border-4 border-double"
           >
-            <a href="https://drive.google.com/file/d/12zTc6KWKm70vBEc3Z8NTAEICFhAoxcbk/view" target="_blank" rel="noopener noreferrer">ꜜResumeꜜ</a>
+            <a href="https://drive.google.com/file/d/1VJs_1VEq5F6f-BJZ-k5ZByIodxxkhP6n/view?pli=1" target="_blank" rel="noopener noreferrer">ꜜResumeꜜ</a>
             
           </li>
           <li>

@@ -23,6 +23,7 @@ import {
   veda,
   abb,
   carrent,
+  blogmern,
   jobit,
   tripguide,
   shopyshop,
@@ -134,6 +135,17 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Healthcare Business and Ayurvedic Health Consultant",
+    company_name: "Veda Ayurveda",
+    icon: veda,
+    iconBg: "#E6DEDD",
+    date: "Nov 2018 - may 2023",
+    points: [
+      "Established and managed a healthcare business specializing in Ayurvedic health consultancy, offering holistic wellness solutions aligned with Ayurvedic principles.",
+      "Expanded operations by establishing multiple healthcare store stockpoints, ensuring wider accessibility to natural remedies and wellness products aligned with Ayurveda.",
+    ],
+  },
+  {
     title: "Web Developer",
     company_name: "SpriteGenix",
     icon: sg,
@@ -143,17 +155,6 @@ const experiences = [
       "Collaborated with the development team to design and implement responsive websites, including the company's main website, using HTML, CSS, JavaScript, and front-end frameworks like React and Next.js. Successfully deployed websites on cPanel for seamless access and user experience.",
       "Assisted in front-end development tasks, conducted website testing, and troubleshooting, ensuring the punctual delivery of high-quality websites.",
       "Gained practical experience with modern development tools, and actively participated in the deployment process on cPanel.",
-    ],
-  },
-  {
-    title: "Healthcare Business and Ayurvedic Health Consultant",
-    company_name: "Veda Ayurveda",
-    icon: veda,
-    iconBg: "#E6DEDD",
-    date: "Nov 2018 - may 2023",
-    points: [
-      "Established and managed a healthcare business specializing in Ayurvedic health consultancy, offering holistic wellness solutions aligned with Ayurvedic principles.",
-      "Expanded operations by establishing multiple healthcare store stockpoints, ensuring wider accessibility to natural remedies and wellness products aligned with Ayurveda.",
     ],
   },
   {
@@ -218,6 +219,28 @@ const projects = [
     image: carrent,
     source_code_link: "",
     live_link: "https://spritegenix.com/",
+  },
+  {
+    name: "Blog MERN",
+    description:
+      "Blogging application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The application features a comprehensive set of functionalities for creating, managing, and interacting with blog posts, including user authentication, admin dashboard, and social login options.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blogmern,
+    source_code_link: "https://github.com/erpankajk4/Blog-MERN-FireBase.git",
+    live_link: "https://blog-mern-firebase.onrender.com",
   },
   {
     name: "MovieHub",

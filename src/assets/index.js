@@ -32,6 +32,7 @@ import sg from "./company/sg.png";
 import veda from "./company/veda.png";
 import abb from "./company/abb.svg";
 
+import blogmern from "./blogmern.webp";
 import carrent from "./carrent.webp";
 import jobit from "./jobit.webp";
 import tripguide from "./tripguide.webp";
@@ -70,6 +71,7 @@ export {
   veda,
   abb,
 
+  blogmern,
   carrent,
   jobit,
   tripguide,
